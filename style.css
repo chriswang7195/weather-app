@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+}
+
+.container,
+.weather-screen {
+  text-align: center;
+}
+
+form {
+  text-align: center;
+  width: 250px;
+  margin: 80px auto 80px auto;
+}
+
+p, 
+label,
+option {
+  color:  white;
+  font-family: Hevetica, Arial, sans-serif;
+  margin: 2px 0;
+  font-weight: bold;
+}
+
+label {
+  font-weight: normal;
+}
+
+#cities {
+  margin: 10px;
+}
+
+.city {
+  font-size: 50px;
+}
+
+.temp {
+  font-size: 120px;
+}
+
+.desc {
+  font-size: 24px;
+}
+
+.range {
+  font-size: 24px;
+}
+
+.search-city {
+  padding: 5px;
+  margin-top:  15px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  height: 30px;
+  width: 100%;
+}
+
+button {
+  height: 30px; 
+  font-size: 14px;
+  padding: 0 5px;
+  width: 48%;
+}
+
+.city-weather {
+  float: left;
+ } 
+
+ .my-weather {
+  float: right;
+ }
