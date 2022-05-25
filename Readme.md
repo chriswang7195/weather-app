@@ -1,0 +1,3 @@
+  # Weather App #
+  Project link: https://chriswang7195.github.io/weather-app/<br />
+  This uses the free openweathermap API to show current temperature, weather description, max and min temperature. It has two buttons, get weather and my location. The get weather button gets the weather from the city or state in the search bar. My location button uses the javascript geolocation API to get your latitude and longitude to display the weather. The default city that appears on initial page load is Long Island City.
